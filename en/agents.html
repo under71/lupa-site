@@ -188,7 +188,7 @@ codex mcp list   # lupa should appear</code></pre>
    - running the lupa-search binary through a shell (killed with 133/134 in sandboxes)
    - building the CLI from source (unsigned binary -> macOS security warning)
    - querying Lupa's SQLite index directly (skips the tokenizer and ranking; results get far worse)
-4. Query syntax: n:name c:content f:folder -exclude "exact phrase" kind:pdf size:>10mb date:week .hwp report*
+4. Query syntax: n:name c:content f:folder -exclude "exact phrase" kind:pdf kind:presentation size:>10mb date:week date:7d .hwp report*
 5. Need the text? Use lupa_read.</code></pre>
 
   <h2 class="sect">Obsidian and friends: add the folder</h2>
